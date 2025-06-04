@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipul Kumar Sahani - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #c3ecf7, #f5f7fa);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      position: relative;
+    }
+
+    .big-photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid white;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      margin: 1rem auto;
+      transition: transform 0.4s ease, box-shadow 0.3s ease;
+      display: block;
+    }
+
+    .big-photo:hover {
+      transform: scale(1.08);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-weight: 300;
+    }
+
+    .resume-btn {
+      background-color: #00b4db;
+      padding: 0.6rem 1.2rem;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .resume-btn:hover {
+      background-color: #007c91;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      animation: fadeInUp 1s ease;
+    }
+
+    h2 {
+      color: #0083b0;
+      margin-bottom: 1rem;
+      border-left: 5px solid #00b4db;
+      padding-left: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      margin: 1rem 0;
+      padding-left: 1rem;
+      border-left: 4px solid #00b4db;
+      color: #555;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 0.6rem 0.7rem 0 0;
+      color: white;
+      background: linear-gradient(135deg, #00b4db, #0083b0);
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 180, 219, 0.5);
+      transition: background 0.4s ease, box-shadow 0.4s ease, transform 0.3s ease;
+    }
+
+    .contact a:hover {
+      background: linear-gradient(135deg, #0083b0, #005f73);
+      box-shadow: 0 6px 20px rgba(0, 95, 115, 0.7);
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(90deg, #004d66, #002933);
+      color: #d1e8f2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.15);
+      box-shadow: inset 0 3px 10px rgba(255, 255, 255, 0.1);
+      border-top: 1px solid #00b4db;
+      border-radius: 0 0 12px 12px;
+      user-select: none;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .big-photo {
+        width: 150px;
+        height: 150px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        margin: 1.5rem 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="IMG_20240110_211424_436_edited.jpg" alt="Vipul Kumar Sahani" class="big-photo" />
+    <h1>Hi, I'm Vipul Kumar Sahani</h1>
+    <p class="tagline">Welcome to my professional portfolio</p>
+    <a href="vip.resume BCA (2).pdf" download class="resume-btn">📄 Download Resume</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I have completed my BCA and enjoy working on creative and web-based projects. I specialize in typing, design, and presentations, and I’m continuously building my skills through learning and practice.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>MS Office (Word, Excel, PowerPoint)</li>
+      <li>Typing (High Speed and Accuracy)</li>
+      <li>Web Design (HTML, CSS, Basic PHP)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Student Registration Form with Database (PHP + MySQL)</li>
+      <li>MCQ Exam System with Timer and Result Explanation</li>
+      <li>Personal E-commerce Website Model</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Google Digital Garage – Fundamentals of Digital Marketing</li>
+      <li>Great Learning – Web Development Basics</li>
+      <li>Typing Master Pro – Advanced Typing Certificate</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>6 Months Experience</strong> at NHAI Process Company NSB BPO (May 2024 – Dec 2024)<br>Actually I am 2024 pass out student I didn't know how to join in IT organization so I joined telecalling company and got experience.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Hire Me?</h2>
+    <p>I am dedicated, detail-oriented, and always eager to learn new things. I work well under pressure, communicate clearly, and deliver work on time. I am passionate about building user-friendly and functional web experiences.</p>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <blockquote>“Vipul is hardworking and has a strong eye for design and structure. He built a full registration system on his own.”<br>— Mr. Singh, IT Trainer</blockquote>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul>
+      <li>English – Intermediate (Spoken + Written)</li>
+      <li>Hindi – Fluent</li>
+    </ul>
+  </section>
+<section class="contact">
+  <h2>Contact Me</h2>
+  <a href="mailto:jalwanshivsvipulsahani@gmail.com">📧 Email</a>
+
+  <a href="https://wa.me/918429626476" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
+    <!-- WhatsApp SVG icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#25D366" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M20.52 3.48a11.951 11.951 0 0 0-17.01 0c-4.66 4.66-4.66 12.23 0 16.89l-1.99 5.43 5.57-1.99a11.95 11.95 0 0 0 16.89-16.9zm-9.32 15.39c-1.83 0-3.62-.49-5.17-1.41l-.37-.22-3.36 1.2 1.23-3.3-.24-.37a8.586 8.586 0 0 1-1.38-4.76c0-4.75 3.88-8.63 8.63-8.63 2.3 0 4.46.9 6.07 2.52a8.582 8.582 0 0 1 2.52 6.06 8.62 8.62 0 0 1-8.5 8.58zm4.72-6.52c-.26-.13-1.53-.75-1.77-.83-.24-.09-.42-.13-.6.13-.18.26-.69.83-.85 1-.16.18-.32.2-.59.07-.26-.13-1.11-.41-2.12-1.3-.78-.7-1.31-1.57-1.46-1.83-.15-.26-.02-.4.12-.53.12-.13.26-.32.39-.48.13-.16.18-.27.27-.44.09-.18.04-.33-.02-.46-.06-.13-.6-1.44-.82-1.97-.22-.52-.44-.45-.6-.46-.15-.01-.33-.01-.51-.01-.18 0-.46.07-.7.33-.24.26-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.74.13.18 1.84 2.82 4.46 3.95.62.27 1.11.43 1.49.55.63.2 1.2.17 1.65.1.5-.08 1.53-.63 1.75-1.24.22-.61.22-1.13.15-1.24-.07-.11-.26-.18-.52-.31z"/>
+    </svg>
+    WhatsApp
+  </a>
+
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
+  <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Vipul Kumar Sahani. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
